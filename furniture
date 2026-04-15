@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Furniture Kayu Premium</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+    }
+    header {
+      background: #5a3e2b;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #3e2a1f;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1582582494700-50c2f7a3e4b1') no-repeat center/cover;
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+    }
+    .container {
+      padding: 40px 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      margin: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    footer {
+      background: #5a3e2b;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Furniture Kayu Premium</h1>
+  <p>Jati | Trembesi | Sonokeling | Kelengkeng</p>
+</header>
+
+<nav>
+  <a href="#about">Tentang</a>
+  <a href="#produk">Produk</a>
+  <a href="#kontak">Kontak</a>
+</nav>
+
+<section class="hero">
+  <h2>Keindahan Alami dalam Setiap Karya</h2>
+  <p>Furniture handmade dari kayu solid berkualitas tinggi</p>
+</section>
+
+<section id="about" class="container">
+  <h2>Tentang Kami</h2>
+  <p>Kami menghadirkan furnitur dari kayu pilihan terbaik Indonesia seperti jati, trembesi, sonokeling, dan kelengkeng. Setiap produk dibuat dengan detail dan mempertahankan keindahan alami kayu.</p>
+</section>
+
+<section id="produk" class="container">
+  <h2>Produk Kami</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Meja Jati</h3>
+      <p>Kuat, tahan lama, dan elegan.</p>
+    </div>
+    <div class="card">
+      <h3>Meja Trembesi</h3>
+      <p>Desain natural dengan slab besar.</p>
+    </div>
+    <div class="card">
+      <h3>Sonokeling</h3>
+      <p>Warna gelap mewah dan eksklusif.</p>
+    </div>
+    <div class="card">
+      <h3>Kelengkeng</h3>
+      <p>Unik, cerah, dan artistik.</p>
+    </div>
+  </div>
+</section>
+
+<section id="kontak" class="container">
+  <h2>Kontak</h2>
+  <p>📞 WhatsApp: 08xxxxxxxxxx</p>
+  <p>📍 Lokasi: Lombok / Indonesia</p>
+</section>
+
+<footer>
+  <p>© 2026 Furniture Kayu Premium</p>
+</footer>
+
+</body>
+</html>  
