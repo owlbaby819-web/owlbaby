@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio Furniture</title>
+
+<style>
+body {
+  margin:0;
+  font-family: Arial, sans-serif;
+  background:#f5f5f5;
+}
+
+header {
+  text-align:center;
+  padding:40px 20px;
+  background:#5a3e2b;
+  color:white;
+}
+
+.container {
+  padding:40px 20px;
+}
+
+.grid {
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap:20px;
+}
+
+.card {
+  background:white;
+  border-radius:12px;
+  overflow:hidden;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+  transition:0.3s;
+}
+
+.card:hover {
+  transform:translateY(-5px);
+}
+
+.card img {
+  width:100%;
+  height:250px;
+  object-fit:cover;
+}
+
+.card-content {
+  padding:15px;
+}
+
+.card h3 {
+  margin:0;
+  font-size:18px;
+}
+
+.card p {
+  color:#777;
+  font-size:14px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Portfolio Furniture</h1>
+  <p>Karya Kayu Jati, Trembesi, Sonokeling & Kelengkeng</p>
+</header>
+
+<section class="container">
+  <div class="grid">
+
+    <!-- Produk 1 -->
+    <div class="card">
+      <img src="meja1.jpg">
+      <div class="card-content">
+        <h3>Meja Jati Solid</h3>
+        <p>Kayu Jati</p>
+      </div>
+    </div>
+
+    <!-- Produk 2 -->
+    <div class="card">
+      <img src="meja2.jpg">
+      <div class="card-content">
+        <h3>Meja Trembesi Natural</h3>
+        <p>Kayu Trembesi</p>
+      </div>
+    </div>
+
+    <!-- Produk 3 -->
+    <div class="card">
+      <img src="meja3.jpg">
+      <div class="card-content">
+        <h3>Meja Sonokeling</h3>
+        <p>Kayu Sonokeling</p>
+      </div>
+    </div>
+
+    <!-- Produk 4 -->
+    <div class="card">
+      <img src="meja4.jpg">
+      <div class="card-content">
+        <h3>Meja Kelengkeng</h3>
+        <p>Kayu Kelengkeng</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</body>
+</html>
